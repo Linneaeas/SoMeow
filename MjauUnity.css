@@ -78,4 +78,69 @@
   }
 /*HEADER ENDS*/
 
+/*MJAU UNITY*/
+.MjauUnity {
+  display: grid;
+  column-gap: 15em;
+  margin-top: 6em;
+  justify-content: center;
+}
+
+.box {
+  width: 20rem;
+  background-color:rgb(245, 196, 244);
+}
+
+h2 {
+  text-decoration: none;
+  color: rgba(116, 23, 115, 1);
+  font-family: 'Kannada MN';
+  font-weight: 800;
+  font-size: 1.5em;
+  text-shadow: 0em 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+
+
+.OrPaw1  {
+  animation-name: OrPaw;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+
+.OrPaw2 {
+  animation-name: OrPaw;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+.OrPaw3 {
+  animation-name: OrPaw;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes OrPaw {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+   
+}
+
+/*MJAU UNITY ENDS*/
+
+
 
