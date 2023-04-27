@@ -107,14 +107,12 @@ h2 {
   margin-bottom: 1em;
 }
 
-
 .OrPaw1 {
   animation-name: OrPaw;
   animation-timing-function: linear;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  
 }
 
 @keyframes OrPaw {
@@ -122,7 +120,7 @@ h2 {
     transform: translateX(-100%) translateY(0%) rotate(-70deg);
   }
   50% {
-    transform: translateX(-0%) translateY(20%) rotate(0deg);
+    transform: translateX(-0%) translateY(30%) rotate(0deg);
   }
   100% {
     transform: translateX(100%) translateY(0%) rotate(70deg);
@@ -172,8 +170,50 @@ input[type="submit"]:hover {
 }
 
 
+@media screen and (max-width: 700px) {
+  .SoMeowLogo {
+    max-height: 4em;
+    margin-top: -1em;
+  }
+
+  a {
+    font-size: 1em;
+  }
+
+  .PrimaryNav {
+    max-height: 3em;
+    margin-top: 1em;
+   
+  }
+
+  .active:after {
+    width: 4em;
+  }
+
+  .MjauUnity {
+    display: grid;
+    column-gap: 1rem;
+    margin-top: 3em;
+    justify-content: center;
+    align-items: self-start;
+  }
+
+  
+  .OrPaw1 {
+    animation-name: OrPaw;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+  }
+  
+  @keyframes OrPaw {
+    0% { transform: translateY(0); } 
+  50% { transform: translateY(-70px); } 
+  100% { transform: translateY(0); } 
+  }
+}
+
 
 /*MJAU UNITY ENDS*/
-
-
-
